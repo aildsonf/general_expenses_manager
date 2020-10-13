@@ -14,11 +14,12 @@ public class Gerenciador {
         this.usuario = null;
         this.despesas = new ArrayList<ItemDespesa>();
         this.total = 0;
-        //teste
+        
     }
 
     public Usuario getUsuario() {
         return usuario;
+       
     }
 
     public void setUsuario(Usuario usuario) {
