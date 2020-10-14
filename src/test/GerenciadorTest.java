@@ -2,30 +2,40 @@ import junit.framework.TestCase;
 
 public class GerenciadorTest extends TestCase {
 	
-	public void testInsereUsuario(Usuario u) {
+	@Test
+	public void testInsereUsuario() {
+		
 		
 	}
 	
+	@Test
 	public void testRemoveUsuario() {
 		
 	}
 	
-	public void testInsereSaldo(double valor) {
+	@Test
+	public void testInsereSaldo() {
 		
 	}
 	
-	public void testAtualizaSaldo(double valor) {
+	@Test
+	public void testAtualizaSaldo() {
 		
 	}
 	
-	public void testInsereDespesa(ItemDespesa d) {
+	@Test
+	public void testInsereDespesa() {
 		
 	}
 	
-	public void testRemoveDespesa(ItemDespesa d) {
+	@Test
+	public void testRemoveDespesa() {
 		
 	}
 	
-	public void testMostraExtrato()
+	@Test
+	public void testMostraExtrato() {
+		
+	}
 	
 }
